@@ -1,10 +1,10 @@
 import Link from 'next/link';
 
-import { Background } from '../background/Background';
-import { HeroOneButton } from '../hero/HeroOneButton';
-import { Section } from '../layout/Section';
-import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
-import { Logo } from './Logo';
+import {Background} from '../background/Background';
+import {HeroOneButton} from '../hero/HeroOneButton';
+import {Section} from '../layout/Section';
+import {NavbarTwoColumns} from '../navigation/NavbarTwoColumns';
+import {Logo} from './Logo';
 
 const Hero = () => (
   <Background color={"wave bg-gradient-to-r from-red-200 via-red-500 to-yellow-400 background-animate"}
